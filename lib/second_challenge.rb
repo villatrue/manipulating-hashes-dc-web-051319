@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def second_challenge
   groceries = {
@@ -7,7 +7,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-binding.pry
+
   groceries.values.flatten
 
   
